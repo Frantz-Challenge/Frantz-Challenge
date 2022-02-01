@@ -1,0 +1,36 @@
+a =random.randint(4, 6)
+b= random.randint(0, 9)
+c= random.randint(0, 9)
+d= random.randint(0, 9)
+e= random.randint(0, 9)
+f= random.randint(0, 9)
+g= random.randint(0, 9)
+h= random.randint(0, 9)
+i= random.randint(0, 9)
+j= random.randint(0, 9)
+k= random.randint(0, 9)
+l= random.randint(0, 9)
+m= random.randint(0, 9)
+n= random.randint(0, 9)
+o= random.randint(0, 9)
+p= random.randint(0, 9)
+group1 = [a, b, c, d]
+group2 = [e, f, g, h]
+group3 = [i, j, k, l]
+group4 = [m, n, o, p]
+for i in range(size -3)
+if group1 [i] == group1 [i + 1] and group1 [i + 1] and group1 [i + 1]
+  == group1 [i + 3] 
+AND
+group2 [i] == group2 [i + 1] and group2 [i + 1] and group2 [i + 1]
+  == group2 [i + 3] 
+AND
+group3 [i] == group3 [i + 1] and group3 [i + 1] and group3 [i + 1]
+  == group3 [i + 3] 
+AND
+group4 [i] == group4 [i + 1] and group4 [i + 1] and group4 [i + 1]
+  == group4 [i + 3]: 
+
+
+print (“your cardnumber is ”,group1 ,”-“, group2 ,”-“, group3 ,”-“, group4)
+
